@@ -1,4 +1,15 @@
 const expect = require('chai').expect
+const StoreKeeper = require('../src/getEmployeesDetails').StoreKeeper;
+const Employee = require('../src/getEmployeesDetails').Employee;
+const Manager = require('../src/getEmployeesDetails').Manager;
+const CreativeDesigner = require('../src/getEmployeesDetails').CreativeDesigner;
+const Director = require('../src/getEmployeesDetails').Director;
+
+  const ruqoyah = new Employee ('Ruqoyah', 'Odukoya', 22, 'female', 'single', 15);
+  const bukky = new Manager ('Bukky', 'Brown', 32, 'female','married');
+  const joy = new CreativeDesigner ('Joy', 'Akpan', 27, 'female', 'single');
+  const charles = new Director ('Charles', 'Russell', 42, 'male', 'married');
+  const lukman = new StoreKeeper ('Lukman', 'Adesina', 45, 'male', 'married');
 
   describe('Check for implementation of inheritance', () => {
     describe('Ensure inheritance across all subclass', () => {
