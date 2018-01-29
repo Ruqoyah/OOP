@@ -1,0 +1,23 @@
+{
+  "name": "employee-details",
+  "version": "1.0.0",
+  "description": "Getting employee details using OOP",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruqoyah/OOP.git"
+  },
+  "author": "Rukayat Odukoya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruqoyah/OOP/issues"
+  },
+  "homepage": "https://github.com/Ruqoyah/OOP#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
